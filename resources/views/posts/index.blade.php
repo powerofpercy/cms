@@ -25,9 +25,13 @@
                             <td>
                                 {{ $post->title }}
                             </td>
-                            @if(!$post->trashed())
+                            @if($post->trashed())
                                 <td>
-                                    <a href="" class="btn btn-info btn-sm">Edit</a>
+                                    <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-info btn-sm">Restore</a>
+                                </td>
+                            @else
+                                <td>
+                                    <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-info btn-sm">Edit</a>
                                 </td>
                             @endif
                             <td>
