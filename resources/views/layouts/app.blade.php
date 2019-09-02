@@ -17,7 +17,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
-        a.btn-info {
+        .btn-info {
             color: #fff;
         }
     </style>
