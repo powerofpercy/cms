@@ -57,7 +57,7 @@
                     </tbody>
                 </table>
             @else
-                <h3 class="text-center">No Posts yet</h3>
+                <h3 class="text-center">No posts yet</h3>
             @endif
         </div>
     </div>
