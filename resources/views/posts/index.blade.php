@@ -15,6 +15,7 @@
                     <th>Title</th>
                     <th>Category</th>
                     <th></th>
+                    <th></th>
                     </thead>
                     <tbody>
                     @foreach($posts as $post)
